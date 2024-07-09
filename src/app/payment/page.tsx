@@ -4,12 +4,18 @@ import paypal from "../../assets/paypal.png";
 import visa from "../../assets/visa.png";
 import Image from "next/image";
 import Link from "next/link";
+import { IoArrowBackCircleOutline } from "react-icons/io5";
 import SuggestedProducts from "@/components/SuggestedProducts";
 
 const page = () => {
     return (
         <main className="pt-[200px] px-10">
-            <h1 className="font-bold text-[32px] lg:text-[32px]">Payment</h1>
+            <div className="flex items-center">
+                <IoArrowBackCircleOutline className="h-[20px] w-[20px]" />
+                <h1 className="font-bold text-[32px] lg:text-[32px]">
+                    Payment
+                </h1>
+            </div>
             <div className="mt-10 px-10 space-y-10 mb-20">
                 <h1 className="sm:text-[24px] text-[18px] font-bold">
                     Delivery Address

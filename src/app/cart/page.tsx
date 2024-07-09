@@ -8,8 +8,8 @@ const page = () => {
         <main className="pt-[200px] px-5 sm:px-[48px] mb-20">
             <h1 className="text-[32px] font-bold mb-20">Cart</h1>
             <div className="mb-20">
-                <div className="flex flex-col sm:flex-row justify-between mb-20 lg:mb-32 gap-5 sm:gap-0">
-                    <div className="flex text-[19px] lg:text-[24px] gap-10">
+                <div className="flex justify-between mb-20 lg:mb-32 gap-5 sm:gap-0">
+                    <div className="flex text-[12px] sm:text-[19px] lg:text-[24px] gap-10">
                         <Image
                             alt=""
                             src={cream}
@@ -33,12 +33,12 @@ const page = () => {
                             </div>
                         </div>
                     </div>
-                    <p className="font-extrabold text-[19px] lg:text-[24px] text-light-orange">
+                    <p className="font-extrabold text-[14px] sm:text-[19px] lg:text-[24px] text-light-orange">
                         NGN7500
                     </p>
                 </div>
-                <div className="flex justify-between mb-20 flex-col sm:flex-row gap-5 sm:gap-0">
-                    <div className="flex text-[19px] lg:text-[24px] gap-10">
+                <div className="flex justify-between mb-20 lg:mb-32 gap-5 sm:gap-0">
+                    <div className="flex text-[12px] sm:text-[19px] lg:text-[24px] gap-10">
                         <Image
                             alt=""
                             src={cream}
@@ -62,16 +62,16 @@ const page = () => {
                             </div>
                         </div>
                     </div>
-                    <p className="font-extrabold text-[19px] lg:text-[24px] text-light-orange">
+                    <p className="font-extrabold text-[14px] sm:text-[19px] lg:text-[24px] text-light-orange">
                         NGN7500
                     </p>
                 </div>
                 <div className="flex justify-center">
                     <Link
                         href={"payment"}
-                        className="text-white bg-black px-8 lg:px-10 py-3 font-bold text-[20px] rounded-lg"
+                        className="text-white bg-black px-8 lg:px-10 py-3 font-bold text-[14px] sm:text-[20px] rounded-lg"
                     >
-                        Confirm Order
+                        Check out
                     </Link>
                 </div>
             </div>

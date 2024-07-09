@@ -4,8 +4,8 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-    title: "Beauty shop",
-    description: "Beauty: The one stop store for8 female beauty products",
+    title: "My Beauty Store",
+    description: "Beauty: The one stop store for female beauty products",
 };
 
 export default function RootLayout({

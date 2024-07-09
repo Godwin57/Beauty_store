@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const SuggestedProducts = () => {
     return (
-        <div className="flex flex-wrap gap-5 justify-center">
+        <div className="products-grid">
             {productsArr.map((item, index) => (
                 <div key={index}>
                     <Image
@@ -20,12 +20,12 @@ const SuggestedProducts = () => {
                             {item.price}
                         </p>
                     </div>
-                    <div className="flex justify-between">
+                    <div className="flex sm:justify-between justify-around">
                         <Button
                             name="Add Item"
-                            className="text-white bg-black py-2 px-10 rounded-lg font-bold"
+                            className="text-white bg-black py-2 px-2 sm:px-10 rounded-lg font-bold text-[12px] sm:text-[18px]"
                         />
-                        <div className="flex gap-2 items-center px-4 py-2 border border-veryLightGray">
+                        <div className="flex gap-2 items-center px-2 sm:px-4 py-2 border border-veryLightGray">
                             3{" "}
                             <RiArrowDropDownLine className="w-[22px] h-[22px]" />
                         </div>
