@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import HeaderSection from "@/components/HeaderSection";
 import { repeatedProductsArr } from "@/constants/products";
 import Image from "next/image";
+import Link from "next/link";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 const page = () => {
@@ -30,10 +31,12 @@ const page = () => {
                                 </p>
                             </div>
                             <div className="flex sm:justify-between justify-around">
-                                <Button
-                                    name="Add Item"
-                                    className="text-white bg-black py-2 px-2 sm:px-10 rounded-lg font-bold text-[12px] sm:text-[18px]"
-                                />
+                                <Link href={"/cart"}>
+                                    <Button
+                                        name="Add Item"
+                                        className="text-white bg-black py-2 px-2 sm:px-10 rounded-lg font-bold text-[12px] sm:text-[18px]"
+                                    />
+                                </Link>
                                 <div className="flex gap-2 items-center px-2 sm:px-4 py-2 border border-veryLightGray">
                                     3{" "}
                                     <RiArrowDropDownLine className="w-[22px] h-[22px]" />
