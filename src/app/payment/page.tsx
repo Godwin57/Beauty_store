@@ -77,7 +77,7 @@ const page = () => {
                         />
                     </div>
                 </div>
-                <p className="text-[15px] text-extraLightGrey">
+                <p className="text-[15px] text-extraLightGrey font-spartan">
                     By Clicking “Confirm Payment” I agree to the companies term
                     of services
                 </p>
